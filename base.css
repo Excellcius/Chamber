@@ -1,0 +1,72 @@
+/* base.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #current-date {
+    font-size: 0.8em;
+    margin-left: auto;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    
+    footer p {
+    font-size: 0.8em;
+    margin: 0;
+    }
+    
+    footer img {
+    height: 30px;
+    margin-right: 20px;
+    }
+  

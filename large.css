@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1024px) {
+    header {
+    max-width: 80%;
+    margin: 0 auto;
+    }
+    
+    nav {
+    display: flex;
+    }
+    }
